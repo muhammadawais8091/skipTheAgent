@@ -1,0 +1,396 @@
+<div class="banner-sliders">
+        <div class="container-fluid">
+             <div class="slideshow-container">
+                <div class="slidershow-inner">
+    
+                    <div class="mySlidersData " style="display: none;">        
+                          <div class="row">
+                             <div class="col-md-5">
+                                 <div class="left-banner">
+                                    <h1 class="banner-head">What is Yaya?</h1>
+                                    <p class="banner-text">"Yaya" is derived from the Sanskrit term Svadhyaya, which means Self-study. At YayaSpace we believe that understanding oneself is the foundation stone to achieving long term happiness and fulfillment.</p>
+
+                                    <div class="form-group pt-3">
+                                        <a href="https://yayaspace.com/search" class="btn btn btn-bgn">Begin your journey of self discovey.</a>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="col-md-7">
+                                 <div class="right-banner">
+                                    <div class="data-image">
+                                        <img src="https://yayaspace.com/public/assets/image/hot-air-balloon-2411851.jpeg" class="img-fluid">
+                                    </div>
+                                    <div class="righ-child-banner">
+                                        <span class="rcb-text">Let Yaya help you discover yourself… <a href="/" class="rcb-link">Find out more</a></span>
+                                    </div>
+                                </div>
+                             </div>
+                          </div>
+                     </div>
+                    <div class="mySlidersData " style="display: none;">
+                        <div class="row">
+                             <div class="col-md-5">
+                                 <div class="left-banner">
+                                    <h1 class="banner-head">What is Yaya?</h1>
+                                    <p class="banner-text">"Yaya" is derived from the Sanskrit term Svadhyaya, which means Self-study. At YayaSpace we believe that understanding oneself is the foundation stone to achieving long term happiness and fulfillment.</p>
+
+                                    <div class="form-group pt-3">
+                                        <a href="https://yayaspace.com/search" class="btn btn btn-bgn">Begin your journey of self discovey.</a>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="col-md-7">
+                                 <div class="right-banner">
+                                    <div class="data-image">
+                                        <img src="https://yayaspace.com/public/assets/image/spiritual-1149187.jpeg" class="img-fluid">
+                                    </div>
+                                    <div class="righ-child-banner">
+                                        <span class="rcb-text">Experience, understand yourself, Find your passion and find fulfillment… <a href="/" class="rcb-link">Find out more</a></span>
+                                    </div>
+                                </div>
+                             </div>
+                          </div>
+                     </div>
+                    <div class="mySlidersData " style="display: none;">
+                        <div class="row">
+                             <div class="col-md-5">
+                                 <div class="left-banner">
+                                    <h1 class="banner-head">Who are we?</h1>
+                                    <p class="banner-text">We are two friends who were struggling to find our passion and purpose. After years of trial and reflection, we realized that the key is to, first, understand ourselves and decided to help others, including you, understand themselves.</p>
+
+                                    <div class="form-group pt-3">
+                                        <a href="https://yayaspace.com/search" class="btn btn btn-bgn">Begin your journey of self discovey.</a>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="col-md-7">
+                                <div class="right-banner">
+                                    <div class="data-image">
+                                        <img src="https://yayaspace.com/public/assets/image/woman-565127.jpeg" class="img-fluid">
+                                    </div>
+                                    <div class="righ-child-banner">
+                                        <span class="rcb-text black-text">Who are you?… … <a href="/" class="rcb-link black-text">Find out more</a></span>
+                                    </div>
+                                </div>
+                             </div>
+                          </div>
+                     </div>
+                    <div class="mySlidersData " style="display: none;">
+                       <div class="row">
+                             <div class="col-md-5">
+                                 <div class="left-banner">
+                                    <h1 class="banner-head">What can Yaya do for you?</h1>
+                                    <p class="banner-text">Through experiences and guidance, Yayaspace can help you better understand yourself, your likes, dislikes, what makes you click…etc. This may, hopefully, lead you to your passion or purpose and help you achieve a sense of contentment… And, maybe, make some money along the way.</p>
+
+                                    <div class="form-group pt-3">
+                                        <a href="https://yayaspace.com/search" class="btn btn btn-bgn">Begin your journey of self discovey.</a>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="col-md-7">
+                                  <div class="right-banner">
+                                    <div class="data-image">
+                                        <img src="https://yayaspace.com/public/assets/image/meditation-3338549.jpeg" class="img-fluid">
+                                    </div>
+                                    <div class="righ-child-banner">
+                                        <span class="rcb-text">Try an experience and get paid for it with Yaya’s Paid option</span>
+                                    </div>
+                                </div>
+                             </div>
+                          </div>
+                     </div>
+                    <div class="mySlidersData " style="display: none;">
+                       <div class="row">
+                             <div class="col-md-5">
+                                 <div class="left-banner">
+                                    <h1 class="banner-head">What can Yaya do for you?</h1>
+                                    <p class="banner-text">Through experiences and guidance, Yayaspace can help you better understand yourself, your likes, dislikes, what makes you click…etc. This may, hopefully, lead you to your passion or purpose and help you achieve a sense of contentment… And, maybe, make some money along the way.</p>
+
+                                    <div class="form-group pt-3">
+                                        <a href="https://yayaspace.com/search" class="btn btn btn-bgn">Begin your journey of self discovey.</a>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="col-md-7">
+                                    <div class="right-banner">
+                                    <div class="data-image">
+                                        <img src="https://yayaspace.com/public/assets/image/silhouette.jpeg" class="img-fluid">
+                                    </div>
+                                    <div class="righ-child-banner">
+                                        <span class="rcb-text">Try an experience and get paid for it with Yaya’s Paid option</span>
+                                    </div>
+                                </div>
+                             </div>
+                          </div>
+                     </div>
+                    <div class="mySlidersData " style="display: block;">
+                       <div class="row">
+                             <div class="col-md-5">
+                                 <div class="left-banner">
+                                    <h1 class="banner-head">What can Yaya do for you?</h1>
+                                    <p class="banner-text">Through experiences and guidance, Yayaspace can help you better understand yourself, your likes, dislikes, what makes you click…etc. This may, hopefully, lead you to your passion or purpose and help you achieve a sense of contentment… And, maybe, make some money along the way.</p>
+
+                                    <div class="form-group pt-3">
+                                        <a href="https://yayaspace.com/search" class="btn btn btn-bgn">Begin your journey of self discovey.</a>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="col-md-7">
+                                    <div class="right-banner">
+                                        <div class="data-image">
+                                            <img src="https://yayaspace.com/public/assets/image/brewing-4067820.jpeg" class="img-fluid">
+                                        </div>
+                                        <div class="righ-child-banner">
+                                            <span class="rcb-text">Experience and make money with Yaya’s Paid option…
+                                            <a href="" class="rcb-link">Find out more.</a></span>
+                                        </div>
+                                    </div>
+                             </div>
+                          </div>
+                     </div>
+                    <div class="mySlidersData " style="display: none;">        
+                          <div class="row">
+                             <div class="col-md-5">
+                                   <div class="left-banner">
+                                    <h1 class="banner-head">What can Yaya do for you?</h1>
+                                    <p class="banner-text">Through experiences and guidance, Yayaspace can help you better understand yourself, your likes, dislikes, what makes you click…etc. This may, hopefully, lead you to your passion or purpose and help you achieve a sense of contentment… And, maybe, make some money along the way.</p>
+
+                                    <div class="form-group pt-3">
+                                        <a href="https://yayaspace.com/search" class="btn btn btn-bgn">Begin your journey of self discovey.</a>
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="col-md-7">
+                                  <div class="right-banner">
+                                        <div class="data-image">
+                                            <img src="https://yayaspace.com/public/assets/image/imageDelta.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="righ-child-banner">
+                                            <span class="rcb-text">Experience and make money with Yaya’s Paid option…
+                                            <a href="" class="rcb-link">Find out more.</a></span>
+                                        </div>
+                                    </div>
+                             </div>
+                          </div>
+                     </div>
+              
+                 </div>
+            
+            
+                <!--<a class="prevbtn" onclick='plusSlides(-1)'>&#10094;</a>-->
+                <!--<a class="nextbtn" onclick='plusSlides(1)'>&#10095;</a>-->
+    
+            </div>
+    
+            <br>
+        
+        
+            <div style="text-align: center;">
+                <span class="dotSign" onclick="currentSlide(1)"></span>
+                <span class="dotSign" onclick="currentSlide(2)"></span>
+                <span class="dotSign" onclick="currentSlide(3)"></span>
+                <span class="dotSign" onclick="currentSlide(4)"></span>
+                <span class="dotSign" onclick="currentSlide(5)"></span>
+                <span class="dotSign" onclick="currentSlide(6)"></span>
+                <span class="dotSign" onclick="currentSlide(7)"></span>
+            </div>
+        
+        </div>
+    </div>
+
+
+
+
+
+
+<div class="pofr-section">
+        <div class="pofr-container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12 pb-5">
+                    <div class="media">
+                        <img class="" src="https://yayaspace.com/public/assets/image/Picture8.png" alt="Kawaii" width="80px">
+                        <div class="media-body">
+                            <h4 class="pofr-head">Experience</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12 pb-5">
+                    <div class="media">
+                        <img class="" src="https://yayaspace.com/public/assets/image/Picture9.png" alt="Brain" width="130px">
+                        <div class="media-body">
+                            <h4 class="pofr-head">Understand yourself</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12 pb-5">
+                    <div class="media">
+                        <img class="" src="https://yayaspace.com/public/assets/image/Picture10.png" alt="heart" width="120px">
+                        <div class="media-body">
+                            <h4 class="pofr-head">Find your passion</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-12 pb-5">
+                    <div class="media">
+                        <img class="" src="https://yayaspace.com/public/assets/image/Picture11.jpg" alt="Smile" width="130px">
+                        <div class="media-body">
+                            <h4 class="pofr-head">Find fulfillment</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="exp-text container">
+            <h4 class="h_text">Explore Yourself, Explore Experiences</h4>
+        </div>
+
+        <section class="f_width">
+            <div class="container mt-4 mb-4" id="mixedSlider">
+                <div class="MS-content"><a href="https://yayaspace.com/category/15" style="text-decoration: none">
+                            </a><a href="https://yayaspace.com/category/6" style="text-decoration: none">
+                            </a><a href="https://yayaspace.com/category/7" style="text-decoration: none">
+                            </a><a href="https://yayaspace.com/category/10" style="text-decoration: none">
+                            </a><a href="https://yayaspace.com/category/5" style="text-decoration: none">
+                            </a><a href="https://yayaspace.com/category/14" style="text-decoration: none">
+                            </a><a href="https://yayaspace.com/category/13" style="text-decoration: none">
+                            </a><a href="https://yayaspace.com/category/12" style="text-decoration: none">
+                            </a><a href="https://yayaspace.com/category/8" style="text-decoration: none">
+                            </a><a href="https://yayaspace.com/category/9" style="text-decoration: none">
+                            </a><a href="https://yayaspace.com/category/16" style="text-decoration: none">
+                            </a><a href="https://yayaspace.com/category/11" style="text-decoration: none">
+                            </a><div class="item" style=""><a href="https://yayaspace.com/category/11" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/11" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574710756.jpg" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/11" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/11" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Sports </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="item" style=""><a href="https://yayaspace.com/category/15" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/15" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574711172.jpg" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/15" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/15" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Art Performing </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="item" style=""><a href="https://yayaspace.com/category/6" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/6" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574710319.jpg" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/6" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/6" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Coffee Making </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="item" style=""><a href="https://yayaspace.com/category/7" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/7" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574710281.png" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/7" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/7" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Community Building </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="item" style=""><a href="https://yayaspace.com/category/10" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/10" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574711234.jpg" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/10" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/10" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Creative Writing </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="item" style=""><a href="https://yayaspace.com/category/5" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/5" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574710129.jpg" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/5" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/5" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Digital Studio </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="item" style=""><a href="https://yayaspace.com/category/14" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/14" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574711357.jpg" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/14" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/14" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Games </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="item" style=""><a href="https://yayaspace.com/category/13" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/13" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574710894.jpg" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/13" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/13" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Guided Tours </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="item" style=""><a href="https://yayaspace.com/category/12" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/12" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574710798.jpg" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/12" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/12" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Internships </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="item" style=""><a href="https://yayaspace.com/category/8" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/8" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574710396.jpg" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/8" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/8" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Meditation </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="item" style=""><a href="https://yayaspace.com/category/9" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/9" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574710588.jpg" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/9" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/9" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Outdoors </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div><div class="item" style=""><a href="https://yayaspace.com/category/16" style="text-decoration: none">
+                                </a><div class="media border border-radius "><a href="https://yayaspace.com/category/16" style="text-decoration: none">
+                                    <img src="https://yayaspace.com/public/images/category/1574711283.jpg" alt="experience" class="mr-3 rexize-img">
+                                    </a><div class="media-body mt-2"><a href="https://yayaspace.com/category/16" style="text-decoration: none">
+                                        </a><a href="https://yayaspace.com/category/16" style="text-decoration: none;font-family:sans-serif">
+                                            <h4 class="category-title">Social Impact </h4>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div></div>
+                <div class="MS-controls">
+                    <button class="MS-left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+                    <button class="MS-right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="f_width">
+            <div class="container mt-4 mb-4">
+                <div>
+                    <h4 class="h_text">Top rated experiences </h4>
+                    <p class="lead mb-3">Highly reviewed by self-study journey seekers worldwide</p>
+                    <div class="row" id="load_more">
+                                                                                                    
+                    </div>
+                </div>
+
+                            </div>
+        </section>
+    </div>
+    

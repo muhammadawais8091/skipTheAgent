@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>List-Item Page</title>
+    <!-- Favicon -->
+    <link rel="icon" href="">
+    <!-- bootstrap css-->
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    
+    <!-- fontawsomeicon css -->
+    <link rel="stylesheet" type="text/css" href="./css/icons/css/all.css">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+<body>
+    
+    <div id="page">
+
+        <!-- header -->
+        <header id="header">
+        <div class="header-container">
+            <div class="header-first">
+                    <div class="container">
+                        <div class="hf-wrap d-flex">
+                                <div class="hf_left">
+                                        <div class="hf_left-wrap">
+                                            <div class="hfl_cl">
+                                                <span class="cl_text">Call Us Now:</span>
+                                                <span class="cl-number"> +01 123 456 78</span>
+                                        </div>
+                                        <div class="hfl_email">
+                                            <span class="email_text">Email:</span>
+                                            <span class="email-address">info@skiptheagent.com</span>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="hf_right">
+                                    <div class="hf_right-wrap">
+                                            <div class="hfr_text">
+                                                <div class="welcome_text">
+                                                  <span>Welcome to skiptheagent. Kindly</span>
+                                                  <a href="./signin.html">SIGN IN</a>
+                                                  <span>or</span>
+                                                  <a href="./signup.html">SIGN UP</a>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="header-second">
+                    <div class="container">
+                        <div class="hs_wrap">
+                        <div class="hs_left">
+                                <div class="header-logo">
+                                    <a href="./index.html" class="logo" title="Logo">
+                                        <div><h1>LOGO</h1></div>
+                                    </a>
+                                </div>
+                            
+                        </div>
+                        <div class="hs_right">
+                                <nav class="hs_navbar">
+                                <ul class="hs_navbar-links">
+                                  <li><a href="./postad_form.html">SELL MY CAR</a></li>
+                                  <li><a href="./listingItems.html">SHOP FOR NEW CARS</a></li>
+                                  <li><a href="./ownership.html">CONSULTATION</a></li>
+                                </ul>
+                                </nav>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+        </header>
+        <!-- header -->
+
+        <section class="listItems-section">
+             <div class="listItems-content">
+                <div class="listItems-wrapper py-5">
+                     <div class="search-page-new">
+                        <div class="container">
+                          <div class="row">
+                              <div class=" col-lg-3 used-car-refine-search pr-lg-0 mb-3">
+                                  <div class="sidebar-filters">
+                                      <div class="filter-panel-new">
+                                          <div class="accordion" id="sidebar">
+
+                                                <div class="accordion-group search-filter-heading">
+                                                    <div class="accordion-heading">
+                                                        <a class="accordion-toggle">Show Results By:</a>
+                                                    </div>
+                                                </div>
+
+
+                                              <div class="accordion-group">
+
+                                                  <div class="accordion-heading accordion">
+                                                      <a class="accordion-toggle">
+                                                        <i class="fa fa-caret-down"></i>Search by Keyword
+                                                      </a>
+                                                  </div>
+
+                                                  <div class="accordian-content">
+                                                      <div class="accordion-inner">
+                                                        <form  method="get">
+                                                          <div>
+                                                              <input class="pr35"  placeholder="e.g. Honda in Lahore" type="text">                                                          
+                                                              <input class="btn btn-primary refine-go br-0" type="submit" value="Go">
+                                                          </div>
+                                                        </form>
+                                                        <input id="query_params" name="query_params" type="hidden" value="">
+                                                      </div>
+                                                    </div>
+
+                                              </div>
+
+
+                                              <div class="accordion-group">
+                                                  <div class="accordion-heading accordion">
+                                                    <a class="accordion-toggle primary-lang text-left">
+                                                      <i class="fa fa-caret-down"></i>Year
+                                                    </a>
+                                                  </div>
+                                                  <div  class="accordian-content filter_50">
+                                                    <div class="accordion-inner">
+                                                        <div class="range-filter">
+                                                          <span class="twitter-typehead"><input placeholder="From" type="text"></span>
+                                                          <span  class="twitter-typehead"><input placeholder="To" type="text"></span>
+                                                          <input class="btn btn-primary"  type="submit" value="Go">    
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                              </div>
+
+                                              <div class="accordion-group">
+                                                  <div class="accordion-heading accordion">
+                                                    <a class="accordion-toggle primary-lang text-left" data-toggle="collapse" href="#collapse_21" aria-expanded="true">
+                                                      <i class="fa fa-caret-down"></i>Model Category
+                                                    </a>
+                                                  </div>
+                                                  <div  class="accordian-content filter_67">
+                                                    <div class="accordion-inner">
+                                                        <ul class="list-unstyled ">
+                                        
+                                                                <li title="Cars for Sale in Pakistan">                                        
+                                                                  <label class="filter-check clearfix">
+                                                                    <a href="/used-cars/small/266374" title="Cars for Sale in Pakistan">
+                                                                      <input type="checkbox">                                      
+                                                                        Small
+                                                                      <span class="pull-right count">18028</span>
+                                                                    </a>
+                                                                  </label>
+                                                                </li>
+                                        
+                                                                <li title="Cars for Sale in Pakistan">
+                                                                  <label class="filter-check clearfix">
+                                                                    <a href="/used-cars/low-priced/328875" title="Cars for Sale in Pakistan">
+                                                                      <input type="checkbox">
+                                                                        Low Priced
+                                                                      <span class="pull-right count">11445</span>
+                                                                    </a>
+                                                                  </label>
+                                                                </li>
+                                        
+                                                                <li title="Cars for Sale in Pakistan">
+                                                                  <label class="filter-check clearfix">
+                                                                    <a href="/used-cars/big/266260" title="Cars for Sale in Pakistan">
+                                                                      <input type="checkbox">
+                                                                        Big
+                                                                      <span class="pull-right count">9089</span>
+                                                                    </a>
+                                                                  </label>
+                                                                </li>
+                                        
+                                                                <li title="Cars for Sale in Pakistan">
+                                                                  <label class="filter-check clearfix">
+                                                                    <a href="/used-cars/old/430603" title="Cars for Sale in Pakistan">
+                                                                      <input type="checkbox">
+                                                                        Old
+                                                                      <span class="pull-right count">8451</span>                                        
+                                                                    </a>
+                                                                  </label>
+                                                                </li>
+                                        
+                                                                <li title="Cars for Sale in Pakistan">
+                                                                  <label class="filter-check clearfix">
+                                                                    <a href="/used-cars/cheap/329024" title="Cars for Sale in Pakistan">
+                                                                      <input type="checkbox">
+                                                                        Cheap
+                                                                      <span class="pull-right count">5138</span>
+                                                                    </a>
+                                                                  </label>
+                                                                </li>
+                                                        </ul>
+                                        
+                                                        <div class="clearfix"></div>
+                                                          <div id="lb_more_choices_classification_names" class="modal more_choices_classification_names mchoices_modal modelSelect1" style="display: none;">    
+                                                            <div class="modal-dialog" id="more_choices_classification_names">
+                                                                <div class="modal-content">
+                                                                  <div class="modal-header">
+                                                                    <h4>Select Model Categories</h4>
+                                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>                                                                    
+                                                                  </div>
+                                                                  <form method="get">
+                                                                    <div class="modal-body checkbox-list">
+                                                                      <ul id="classification_names_list" name="classification_names_list" class="list-unstyled inline list-links clearfix">
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="army-auction-jeep" type="checkbox">
+                                                                            Army Auction Jeep<span class="badge badge-gray-light pull-right">27</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="big" type="checkbox">
+                                                                            Big<span class="badge badge-gray-light pull-right">9090</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="carry-daba" type="checkbox">
+                                                                            Carry Daba<span class="badge badge-gray-light pull-right">2484</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="cheap" type="checkbox">
+                                                                            Cheap<span class="badge badge-gray-light pull-right">5144</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="duplicate-book" type="checkbox">
+                                                                            Duplicate Book<span class="badge badge-gray-light pull-right">87</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="electric" type="checkbox">
+                                                                            Electric<span class="badge badge-gray-light pull-right">920</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="exotic" type="checkbox">
+                                                                            Exotic<span class="badge badge-gray-light pull-right">63</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="jeep" type="checkbox">
+                                                                            Jeep<span class="badge badge-gray-light pull-right">4229</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="low-priced" type="checkbox">
+                                                                            Low Priced<span class="badge badge-gray-light pull-right">11442</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="luxury" type="checkbox">
+                                                                            Luxury<span class="badge badge-gray-light pull-right">2999</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="modified" type="checkbox">
+                                                                            Modified<span class="badge badge-gray-light pull-right">123</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="old" type="checkbox">
+                                                                            Old<span class="badge badge-gray-light pull-right">8454</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="small" type="checkbox">
+                                                                            Small<span class="badge badge-gray-light pull-right">18034</span>
+                                                                          </label>
+                                                                        </li>
+                                                                        <li>
+                                                                          <label class="checkbox">
+                                                                            <input value="sports" type="checkbox">
+                                                                            Sports<span class="badge badge-gray-light pull-right">190</span>
+                                                                          </label>
+                                                                        </li>
+                                                                      </ul>
+                                                                    </div>
+                                                                    <div class="modal-footer">
+                                                                      <div class="text-right ">
+                                                                        <button class="btn btn-modal" type="button" value="submit">Submit</button>
+                                                                      </div>
+                                                                    </div>
+                                                                  </form>
+                                                                </div>
+                                                              </div>
+                                                                
+                                                            </div>
+                                                          <a href="" class="more-choice"  data-toggle="modal" data-target="#lb_more_choices_classification_names">more choices...</a>
+                                                    </div>
+                                                  </div>
+                                              </div>
+
+                                              <div class="accordion-group">
+
+                                                <div class="accordion-heading accordion">
+                                                    <a class="accordion-toggle">
+                                                      <i class="fa fa-caret-down"></i>ZIP CODE
+                                                    </a>
+                                                </div>
+
+                                                <div class="accordian-content">
+                                                    <div class="accordion-inner">
+                                                      <form  method="get">
+                                                        <div>
+                                                            <input class="pr35"  placeholder="e.g. G1X 3R7" type="text">                                                          
+                                                            <input class="btn btn-primary refine-go br-0" type="submit" value="Go">
+                                                        </div>
+                                                      </form>
+                                                      <input id="query_params" name="query_params" type="hidden" value="">
+                                                    </div>
+                                                  </div>
+
+                                            </div>
+
+                                            <div class="accordion-group">
+                                              <div class="accordion-heading accordion">
+                                                <a class="accordion-toggle primary-lang text-left">
+                                                  <i class="fa fa-caret-down"></i>PRICE RANGE
+                                                </a>
+                                              </div>
+                                              <div  class="accordian-content filter_50">
+                                                <div class="accordion-inner">
+                                                    <div class="range-filter">
+                                                      <span class="twitter-typehead"><input placeholder="From" type="text"></span>
+                                                      <span  class="twitter-typehead"><input placeholder="To" type="text"></span>
+                                                      <input class="btn btn-primary"  type="submit" value="Go">    
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                              <div class="accordion-group">
+                                                <div class="accordion-heading  accordion">
+                                                  <a class="accordion-toggle primary-lang text-left">
+                                                    <i class="fa fa-caret-down"></i>Body Type
+                                                  </a>
+                                                </div>
+                                                <div  class="accordian-content filter_55">
+                                                  <div class="accordion-inner">
+                                                      <ul class="list-unstyled has-picture-new">
+                                      
+                                                              <li title="Cars for Sale in Pakistan">                                      
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/bt_sedan/"  title="Cars for Sale in Pakistan">
+                                                                      <input type="checkbox" class="pull-left"> Sedan  
+                                                                      <span class="pull-right count">16451</span>
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/bt_hatchback/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox" class="pull-left"> Hatchback
+                                                                    <span class="pull-right count">16294</span>   
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/bt_suv/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox" class="pull-left"> SUV
+                                                                    <span class="pull-right count">2619</span>
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">                                      
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/bt_mini-van/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox" class="pull-left"> Mini Van
+                                                                    <span class="pull-right count">964</span>                                      
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+
+
+                                                      </ul>
+                                      
+                                                      <div class="clearfix"></div>
+
+                                                      <div id="lb_more_choices_body_types" class="modal  more_choices_body_types  mchoices_modal modelSelect1" style="display: none;">    
+                                                        <div class="modal-dialog" id="more_choices_body_types">
+                                                          <div class="modal-content">
+                                                            <div class="modal-header">
+                                                              <h4>Select Body Types</h4>
+                                                              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                              
+                                                            </div>
+                                                            <form method="get">
+                                                              <div class="modal-body checkbox-list">
+                                                                <ul id="body_type_list" class="list-unstyled inline list-links more-choices-picture clearfix">
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="compact-sedan" type="checkbox">
+                                                                      <div class="body-name">Compact sedan</div><span class="badge badge-gray-light pull-right">1</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="convertible" type="checkbox">
+                                                                      <div class="body-name">Convertible</div><span class="badge badge-gray-light pull-right">25</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="coupe" type="checkbox">
+                                                                      <div class="body-name">Coupe</div><span class="badge badge-gray-light pull-right">87</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="crossover" type="checkbox">
+                                                                      <div class="body-name">Crossover</div><span class="badge badge-gray-light pull-right">901</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="double-cabin" type="checkbox">
+                                                                      <div class="body-name">Double Cabin</div><span class="badge badge-gray-light pull-right">492</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="hatchback" type="checkbox">
+                                                                      <div class="body-name">Hatchback</div><span class="badge badge-gray-light pull-right">15139</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="high-roof" type="checkbox">
+                                                                      <div class="body-name">High Roof</div><span class="badge badge-gray-light pull-right">68</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="micro-van" type="checkbox">
+                                                                      <div class="body-name">Micro Van</div><span class="badge badge-gray-light pull-right">543</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="mini-van" type="checkbox">
+                                                                      <div class="body-name">Mini Van</div><span class="badge badge-gray-light pull-right">918</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="mini-vehicles" type="checkbox">
+                                                                      <div class="body-name">Mini Vehicles</div><span class="badge badge-gray-light pull-right">6</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="mpv" type="checkbox">
+                                                                      <div class="body-name">MPV</div><span class="badge badge-gray-light pull-right">414</span>
+                                                                    </label>
+                                                                  </li>
+                                                                   
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="pick-up" type="checkbox"> 
+                                                                      <div class="body-name">Pick Up</div><span class="badge badge-gray-light pull-right">262</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="sedan" type="checkbox"> 
+                                                                      <div class="body-name">Sedan</div><span class="badge badge-gray-light pull-right">15733</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="single-cabin" type="checkbox">
+                                                                      <div class="body-name">Single Cabin</div><span class="badge badge-gray-light pull-right">60</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="station-wagon" type="checkbox"> 
+                                                                      <div class="body-name">Station Wagon</div><span class="badge badge-gray-light pull-right">286</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="suv" type="checkbox"> 
+                                                                      <div class="body-name">SUV</div><span class="badge badge-gray-light pull-right">2543</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="truck" type="checkbox"> 
+                                                                      <div class="body-name">Truck</div><span class="badge badge-gray-light pull-right">10</span>
+                                                                    </label>
+                                                                  </li>
+                                                                  <li>
+                                                                    <label class="checkbox">
+                                                                      <input value="van" type="checkbox"> 
+                                                                      <div class="body-name">Van</div><span class="badge badge-gray-light pull-right">504</span>
+                                                                    </label>
+                                                                  </li>
+                                                                </ul>
+                                                              </div>    
+                                                              <div class="modal-footer">
+                                                                <div class="pull-right">
+                                                                  <button class="btn btn-modal" type="button" value="submit" onclick="return doSubmitBodyTypes(this);">Submit</button>
+                                                                </div>
+                                                              </div>
+                                                            </form>
+                                                          </div>
+                                                        </div>
+                                                      
+                                                      </div>
+                                                      <a class="more-choice" href="javascript:void;" data-toggle="modal" data-target="#lb_more_choices_body_types" rel="nofollow" onclick="$('#lb_more_choices_body_types').load('/used-cars/lightbox_window?alias=bt&amp;values=&amp;filters=&amp;query=');trackEvents( 'CarSearch', 'MoreChoicesBodyTypes');">more choices...</a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              
+                                              <div class="accordion-group">
+                                                <div class="accordion-heading accordion">
+                                                  <a class="accordion-toggle primary-lang text-left">
+                                                    <i class="fa fa-caret-down"></i>Mileage (Km)
+                                                  </a>
+                                                </div>
+                                                <div class="accordian-content filter_50">
+                                                  <div class="accordion-inner">
+                                                      <div class="range-filter">
+                                                        <span class="twitter-typehead"><input placeholder="Min" type="text"></span>
+                                                        <span class="twitter-typehead"><input placeholder="Max" type="text"></span>
+                                                        <input class="btn btn-primary" type="submit" value="Go">    
+                                                      </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              
+                                              <div class="accordion-group">
+                                                <div class="accordion-heading accordion">
+                                                  <a class="accordion-toggle primary-lang text-left collapsed" data-toggle="collapse" href="#collapse_14" aria-expanded="false">
+                                                    <i class="fa fa-caret-down"></i>Fuel Type
+                                                  </a>
+                                                </div>
+                                                <div  class="accordian-content filter_67">
+                                                  <div class="accordion-inner">
+                                                      <ul class="list-unstyled ">
+                                      
+                                                              <li title="Cars for Sale in Pakistan">                                        
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/small/266374" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">                                      
+                                                                    Diesel 
+                                                                    <span class="pull-right count">416</span>
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/low-priced/328875" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                                                      Electric 
+                                                                    <span class="pull-right count">101</span>
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/big/266260" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                                                    Flex Fuel
+                                                                    <span class="pull-right count">402</span>
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/old/430603" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                                                    Gas/Electric Hybrid
+                                                                    <span class="pull-right count">228</span>                                        
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/cheap/329024" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                                                    Gasoline
+                                                                    <span class="pull-right count">14974</span>
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+
+                                                              <li title="Cars for Sale in Pakistan">
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/cheap/329024" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                                                     Unknown
+                                                                    <span class="pull-right count">228</span>
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                                      </ul>
+                                      
+                                                      
+                                                  </div>
+                                                </div>
+                                              </div> 
+
+                                              <div class="accordion-group">
+                                                <div class="accordion-heading accordion">
+                                                  <a class="accordion-toggle primary-lang text-left">
+                                                    <i class="fa fa-caret-down"></i>Engine Type
+                                                  </a>
+                                                </div>
+                                                <div id="collapse_16" class="accordian-content filter_52">
+                                                  <div class="accordion-inner">
+                                                      <ul class="list-unstyled ">
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                      
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/eg_petrol/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                      
+                                                                      Petrol
+                                                                    <span class="pull-right count">39730</span>
+                                      
+                                      
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                      
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/eg_diesel/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                      
+                                                                      Diesel
+                                                                    <span class="pull-right count">2194</span>
+                                      
+                                      
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                      
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/eg_cng/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                      
+                                                                      CNG
+                                                                    <span class="pull-right count">1722</span>
+                                      
+                                      
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                      
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/eg_hybrid/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                      
+                                                                      Hybrid
+                                                                    <span class="pull-right count">1296</span>
+                                      
+                                      
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                      
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/eg_lpg/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                      
+                                                                      Lpg
+                                                                    <span class="pull-right count">11</span>
+                                      
+                                      
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                                      </ul>
+                                      
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                              <div class="accordion-group">
+                                                <div class="accordion-heading accordion">
+                                                  <a class="accordion-toggle primary-lang text-left collapsed">
+                                                    <i class="fa fa-caret-down"></i>EXTERIOR COLOR
+                                                  </a>
+                                                </div>
+                                                <div id="collapse_16" class="accordian-content filter_52">
+                                                  <div class="accordion-inner">
+                                                      <ul class="list-unstyled">
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/eg_petrol/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                                                      Petrol
+                                                                    <span class="pull-right count">39730</span>                                    
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">                                      
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/eg_diesel/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">                                      
+                                                                      Diesel
+                                                                    <span class="pull-right count">2194</span> 
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">                                      
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/eg_cng/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">                                      
+                                                                      CNG
+                                                                    <span class="pull-right count">1722</span>
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/eg_hybrid/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                                                      Hybrid
+                                                                    <span class="pull-right count">1296</span>                                      
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/eg_lpg/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                                                      Lpg
+                                                                    <span class="pull-right count">11</span>
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                                      </ul>
+                                      
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              
+                                              <div class="accordion-group">
+                                                <div class="accordion-heading accordion">
+                                                  <a class="accordion-toggle primary-lang text-left">
+                                                    <i class="fa fa-caret-down"></i>Transmission
+                                                  </a>
+                                                </div>
+                                                <div  class="accordian-content">
+                                                  <div class="accordion-inner">
+                                                      <ul class="list-unstyled ">
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                      
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/tr_manual/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                      
+                                                                      Manual
+                                                                    <span class="pull-right count">23108</span>
+                                      
+                                      
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                      
+                                                              <li title="Cars for Sale in Pakistan">
+                                      
+                                                                <label class="filter-check clearfix">
+                                                                  <a href="/used-cars/search/-/tr_automatic/" rel="nofollow" title="Cars for Sale in Pakistan">
+                                                                    <input type="checkbox">
+                                      
+                                                                      Automatic
+                                                                    <span class="pull-right count">21845</span>
+                                      
+                                      
+                                                                  </a>
+                                                                </label>
+                                                              </li>
+                                                      </ul>
+                                      
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              
+                                              <div class="accordion-group">
+                                                <div class="accordion-heading accordion">
+                                                  <a class="accordion-toggle primary-lang text-left">
+                                                    <i class="fa fa-caret-down"></i>ENGINE CAPCITY (CC)
+                                                  </a>
+                                                </div>
+                                                <div  class="accordian-content filter_50">
+                                                  <div class="accordion-inner">
+                                                      <div class="range-filter">
+                                                        <span class="twitter-typehead"><input placeholder="From" type="text"></span>
+                                                        <span  class="twitter-typehead"><input placeholder="To" type="text"></span>
+                                                        <input class="btn btn-primary"  type="submit" value="Go">    
+                                                      </div>
+                                                  </div>
+                                                </div>
+                                            </div>
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              <div class="col-lg-9">
+                                  <div class="card search-heading">
+                                      <div class="organize-results">
+                                          <div class="row">
+                                                <div class="col-lg-7">
+                                                  
+                                                      <div class="pItem-head-inner">
+                                                          <h1 class="head-text">
+                                                              <span>SEARCH BY CAR MODEL</span>
+                                                              <span class="sp-text1"></span>
+                                                              <span class="sp-text2"></span>
+                                                          </h1>
+                                                      </div>
+                                                    
+                                                </div>
+                                                
+                                                <div class="col-lg-5 py-2">
+                                                  <span class="form-horizontal sort-by">
+                                                    <span class="sort-by-text">Sort By: </span>
+                                                    <select id="sortby" name="sortby"   selected="selected">Updated Date: Recent First</option>
+                                                      <option value="bumped_at asc">Updated Date: Oldest First</option>
+                                                      <option value="price asc">Price: Low to High</option>
+                                                      <option value="price desc">Price: High to Low</option>
+                                                      <option value="model_year desc">Model Year: Latest First</option>
+                                                      <option value="model_year asc">Model Year: Oldest First</option>
+                                                      <option value="mileage asc">Mileage: Low to High</option>
+                                                      <option value="mileage desc">Mileage: High to Low</option></select>
+                                                  </span>
+                                                </div>
+                                          </div>
+                                      </div>
+                                  </div>
+
+                                  <div class="listItems-data pt-3">
+                                      <ul class="listItems-list list-unstyled">
+                                          <li>
+                                              <div class="card p-2">
+                                                 <a href="./description.html">
+                                                  <div class="row">
+                                                    <div class="col-md-4 pr-md-2">
+                                                        <div class="items-img-box">
+                                                          <img src="./images/3372e3428f4b13aa2acefbfe84cfd07d.jpg" class="img-fluid">                                                        
+                                                          <a href="" class="label label-count">
+                                                                <i class="fas fa-camera"></i>
+                                                                <span class="label-count-text">17</span>
+                                                          </a>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-8">
+                                                      <div  class="-items-detail-box">
+                                                          <div class="hc-item">
+                                                                <div class="hc-head">
+                                                                    <span>2019 Fiat 124 Spider </span>
+                                                                </div>
+                                                                <div class="hc-head">
+                                                                  <span>$22, 547</span>
+                                                                </div>
+                                                          </div>
+                                                          <p class="item-text">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                                                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Se..... 
+                                                          </p>
+
+                                                          <div class="vehicle-info pb-2">
+                                                              <ul>
+                                                                <li>
+                                                                    <div>
+                                                                        <span><img src="./images/placeholder.png" ></span>
+                                                                        <span class="vehicle-info-txt">Paris</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                  <div>
+                                                                      <span><img src="./images/calendaryear.png" ></span>
+                                                                      <span  class="vehicle-info-txt">2019</span>
+                                                                  </div>
+                                                                </li>
+
+                                                                <li>
+                                                                  <div>
+                                                                      <span><img src="./images/speedicon.png" ></span>
+                                                                      <span  class="vehicle-info-txt">3,200 KM</span>
+                                                                  </div>
+                                                                </li>
+
+                                                                <li>
+                                                                  <div>
+                                                                      <span><img src="./images/malfunction-indicador-1.png" ></span>
+                                                                      <span  class="vehicle-info-txt">Hybrid</span>
+                                                                  </div>
+                                                                </li>
+
+                                                                <li>
+                                                                  <div>
+                                                                      <span><img src="./images/lightning.png" ></span>
+                                                                      <span  class="vehicle-info-txt">2000CC</span>
+                                                                  </div>
+                                                                </li>
+
+                                                                <li>
+                                                                  <div>
+                                                                      <span><img src="./images/shift.png" ></span>
+                                                                      <span  class="vehicle-info-txt">Automatic</span>
+                                                                  </div>
+                                                                </li>
+
+                                                              </ul>
+                                                          </div>
+
+                                                          <div class="search-bottom ">
+                                                              <div class="row">
+                                                                  <div class="col-md-5">
+                                                                      <div class=" updated-time">
+                                                                        Last Updated: 24 mints ago
+                                                                      </div>
+                                                                  </div>
+                                                                  <div class="col-md-7">
+                                                                      <div class="listing-action d-flex">
+                                                                          <div class="list-action-icon"><img src="./images/like-3.png"></div>
+                                                                          <div class="list-action-button">
+                                                                              <button class="btn btn-action">Show Phone Number</button>
+                                                                          </div>  
+                                                                      </div>
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+
+                                                      </div>
+                                                    </div>
+
+                                                </div>
+                                                 </a>
+                                              </div>
+                                          </li>
+                                      </ul>
+                                  </div>
+                                  
+                                  <div class="listItems-data pt-3">
+                                    <ul class="listItems-list list-unstyled">
+                                        <li>
+                                            <div class="card p-2">
+                                               <a href="./description.html">
+                                                <div class="row">
+                                                  <div class="col-md-4 pr-md-2">
+                                                      <div class="items-img-box">
+                                                        <img src="./images/3372e3428f4b13aa2acefbfe84cfd07d.jpg" class="img-fluid">                                                        
+                                                        <a href="" class="label label-count">
+                                                              <i class="fas fa-camera"></i>
+                                                              <span class="label-count-text">17</span>
+                                                        </a>
+                                                      </div>
+                                                  </div>
+
+                                                  <div class="col-md-8">
+                                                    <div  class="-items-detail-box">
+                                                        <div class="hc-item">
+                                                              <div class="hc-head">
+                                                                  <span>2019 Fiat 124 Spider </span>
+                                                              </div>
+                                                              <div class="hc-head">
+                                                                <span>$22, 547</span>
+                                                              </div>
+                                                        </div>
+                                                        <p class="item-text">
+                                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                                                          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Se..... 
+                                                        </p>
+
+                                                        <div class="vehicle-info pb-2">
+                                                            <ul>
+                                                              <li>
+                                                                  <div>
+                                                                      <span><img src="./images/placeholder.png" ></span>
+                                                                      <span class="vehicle-info-txt">Paris</span>
+                                                                  </div>
+                                                              </li>
+                                                              <li>
+                                                                <div>
+                                                                    <span><img src="./images/calendaryear.png" ></span>
+                                                                    <span  class="vehicle-info-txt">2019</span>
+                                                                </div>
+                                                              </li>
+
+                                                              <li>
+                                                                <div>
+                                                                    <span><img src="./images/speedicon.png" ></span>
+                                                                    <span  class="vehicle-info-txt">3,200 KM</span>
+                                                                </div>
+                                                              </li>
+
+                                                              <li>
+                                                                <div>
+                                                                    <span><img src="./images/malfunction-indicador-1.png" ></span>
+                                                                    <span  class="vehicle-info-txt">Hybrid</span>
+                                                                </div>
+                                                              </li>
+
+                                                              <li>
+                                                                <div>
+                                                                    <span><img src="./images/lightning.png" ></span>
+                                                                    <span  class="vehicle-info-txt">2000CC</span>
+                                                                </div>
+                                                              </li>
+
+                                                              <li>
+                                                                <div>
+                                                                    <span><img src="./images/shift.png" ></span>
+                                                                    <span  class="vehicle-info-txt">Automatic</span>
+                                                                </div>
+                                                              </li>
+
+                                                            </ul>
+                                                        </div>
+
+                                                        <div class="search-bottom ">
+                                                            <div class="row">
+                                                                <div class="col-md-5">
+                                                                    <div class=" updated-time">
+                                                                      Last Updated: 24 mints ago
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-7">
+                                                                    <div class="listing-action d-flex">
+                                                                        <div class="list-action-icon"><img src="./images/like-3.png"></div>
+                                                                        <div class="list-action-button">
+                                                                            <button class="btn btn-action">Show Phone Number</button>
+                                                                        </div>  
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                  </div>
+
+                                              </div>
+                                               </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="listItems-data pt-3">
+                                  <ul class="listItems-list list-unstyled">
+                                      <li>
+                                          <div class="card p-2">
+                                             <a href="./description.html">
+                                              <div class="row">
+                                                <div class="col-md-4 pr-md-2">
+                                                    <div class="items-img-box">
+                                                      <img src="./images/3372e3428f4b13aa2acefbfe84cfd07d.jpg" class="img-fluid">                                                        
+                                                      <a href="" class="label label-count">
+                                                            <i class="fas fa-camera"></i>
+                                                            <span class="label-count-text">17</span>
+                                                      </a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-8">
+                                                  <div  class="-items-detail-box">
+                                                      <div class="hc-item">
+                                                            <div class="hc-head">
+                                                                <span>2019 Fiat 124 Spider </span>
+                                                            </div>
+                                                            <div class="hc-head">
+                                                              <span>$22, 547</span>
+                                                            </div>
+                                                      </div>
+                                                      <p class="item-text">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Se..... 
+                                                      </p>
+
+                                                      <div class="vehicle-info pb-2">
+                                                          <ul>
+                                                            <li>
+                                                                <div>
+                                                                    <span><img src="./images/placeholder.png" ></span>
+                                                                    <span class="vehicle-info-txt">Paris</span>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                              <div>
+                                                                  <span><img src="./images/calendaryear.png" ></span>
+                                                                  <span  class="vehicle-info-txt">2019</span>
+                                                              </div>
+                                                            </li>
+
+                                                            <li>
+                                                              <div>
+                                                                  <span><img src="./images/speedicon.png" ></span>
+                                                                  <span  class="vehicle-info-txt">3,200 KM</span>
+                                                              </div>
+                                                            </li>
+
+                                                            <li>
+                                                              <div>
+                                                                  <span><img src="./images/malfunction-indicador-1.png" ></span>
+                                                                  <span  class="vehicle-info-txt">Hybrid</span>
+                                                              </div>
+                                                            </li>
+
+                                                            <li>
+                                                              <div>
+                                                                  <span><img src="./images/lightning.png" ></span>
+                                                                  <span  class="vehicle-info-txt">2000CC</span>
+                                                              </div>
+                                                            </li>
+
+                                                            <li>
+                                                              <div>
+                                                                  <span><img src="./images/shift.png" ></span>
+                                                                  <span  class="vehicle-info-txt">Automatic</span>
+                                                              </div>
+                                                            </li>
+
+                                                          </ul>
+                                                      </div>
+
+                                                      <div class="search-bottom ">
+                                                          <div class="row">
+                                                              <div class="col-md-5">
+                                                                  <div class=" updated-time">
+                                                                    Last Updated: 24 mints ago
+                                                                  </div>
+                                                              </div>
+                                                              <div class="col-md-7">
+                                                                  <div class="listing-action d-flex">
+                                                                      <div class="list-action-icon"><img src="./images/like-3.png"></div>
+                                                                      <div class="list-action-button">
+                                                                          <button class="btn btn-action">Show Phone Number</button>
+                                                                      </div>  
+                                                                  </div>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+
+                                                  </div>
+                                                </div>
+
+                                            </div>
+                                             </a>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                                
+                                  <div class="pagination-section">
+                                      <div class="pagination-contnent">
+                                            <div class="pagination-body">
+                                                <div class="pg-wrap"> 
+                                                    <ul class="paginate">
+                                                        <li>
+                                                          <a href="#"> <span><i class="fas fa-chevron-left"></i></span></a>
+                                                        </li>
+                                                        <li>
+                                                          <a  href="#">1</a>
+                                                        </li>
+                                                        <li>
+                                                          <a  href="#">2</a>
+                                                        </li>
+                                                        <li>
+                                                          <a  href="#">3</a>
+                                                        </li>
+                                                        <li>
+                                                          <a  href="#">4</a>
+                                                        </li>
+                                                        <li>
+                                                          <a  href="#">....</a>
+                                                        </li>
+                                                        <li>
+                                                          <a  href="#">45</a>
+                                                        </li>
+                                                        <li>
+                                                          <a  href="#"> <span><i class="fas fa-chevron-right"></i></span></a>
+                                                        </li>
+                                                    </ul>  
+                                                </div>                                              
+                                            </div>
+                                      </div>
+                                  </div>
+
+                              </div>
+                          </div>
+                        </div>
+                     </div>
+                </div>
+             </div>   
+        </section>
+
+        <section class="pItems-section">
+          <div class="pItems-content">   
+              <div class="pItems-wrapper">
+                 <div class="container">
+
+                      <div class="pItems-header">
+                          <div class="pItems-header-inner d-flex justify-content-between">
+                              <div class="pItem-head-inner">
+                                  <h1 class="head-text">
+                                      <span>RELATED ADS</span>
+                                      <span class="sp-text1"></span>
+                                      <span class="sp-text2"></span>
+                                  </h1>
+                              </div>
+                              <div class="pItem-move-inner">
+                                  <span><img src="./images/keyboard-right-arrow-button-10.png"></span>
+                                  <span><img src="./images/keyboard-right-arrow-button-9.png"></span>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="pItems-body">
+                          <div class="row">
+                              <div class="col-lg-3  col-md-6">
+                                  <div class="vslider-items">
+                                      <div class="vsItem-image"><img class="item-image" src="./images/honda-city-20161.jpg"></div>
+                                      <span class="vsItem-title">Honda City 1.3 i-VTEC Prosmatec </span>
+                                      <span class="vsItem-price">$76,000</span>
+                                      <span class="vs-bb"></span>
+                                      <div class="vsItem-about">
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/place-localizer.png"></span>
+                                              <span class="vsItem-text">City</span>
+                                           </div>
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/icon-2.png"></span>
+                                              <span class="vsItem-text">45,000</span>
+                                           </div>
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/calendar.png"></span>
+                                              <span class="vsItem-text">2016</span>
+                                           </div>
+                                      </div>
+                                   </div>
+                              </div>
+                              <div class="col-lg-3  col-md-6">
+                                  <div class="vslider-items">
+                                      <div class="vsItem-image"><img class="item-image" src="./images/honda-city-20161.jpg"></div>
+                                      <span class="vsItem-title">Honda City 1.3 i-VTEC Prosmatec </span>
+                                      <span class="vsItem-price">$76,000</span>
+                                      <span class="vs-bb"></span>
+                                      <div class="vsItem-about">
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/place-localizer.png"></span>
+                                              <span class="vsItem-text">City</span>
+                                           </div>
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/icon-2.png"></span>
+                                              <span class="vsItem-text">45,000</span>
+                                           </div>
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/calendar.png"></span>
+                                              <span class="vsItem-text">2016</span>
+                                           </div>
+                                      </div>
+                                   </div>
+                              </div>
+
+                              <div class="col-lg-3  col-md-6">
+                                  <div class="vslider-items">
+                                      <div class="vsItem-image"><img class="item-image" src="./images/honda-city-20161.jpg"></div>
+                                      <span class="vsItem-title">Honda City 1.3 i-VTEC Prosmatec </span>
+                                      <span class="vsItem-price">$76,000</span>
+                                      <span class="vs-bb"></span>
+                                      <div class="vsItem-about">
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/place-localizer.png"></span>
+                                              <span class="vsItem-text">City</span>
+                                           </div>
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/icon-2.png"></span>
+                                              <span class="vsItem-text">45,000</span>
+                                           </div>
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/calendar.png"></span>
+                                              <span class="vsItem-text">2016</span>
+                                           </div>
+                                      </div>
+                                   </div>
+                              </div>
+
+                              <div class="col-lg-3  col-md-6">
+                                  <div class="vslider-items">
+                                      <div class="vsItem-image"><img class="item-image" src="./images/honda-city-20161.jpg"></div>
+                                      <span class="vsItem-title">Honda City 1.3 i-VTEC Prosmatec </span>
+                                      <span class="vsItem-price">$76,000</span>
+                                      <span class="vs-bb"></span>
+                                      <div class="vsItem-about">
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/place-localizer.png"></span>
+                                              <span class="vsItem-text">City</span>
+                                           </div>
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/icon-2.png"></span>
+                                              <span class="vsItem-text">45,000</span>
+                                           </div>
+                                           <div class="vsItem-data">
+                                              <span class="vsItem-city"><img src="./images/calendar.png"></span>
+                                              <span class="vsItem-text">2016</span>
+                                           </div>
+                                      </div>
+                                   </div>
+                              </div>
+                              
+                          </div>
+                      </div>
+
+                 </div>
+              </div>
+          </div>
+       </section>
+
+
+       <div class="form-group text-center mb-5">
+          <button type="button" class="btn btn-more">View More</button>
+       </div>
+
+       <section>
+        <div class="subscript-section">
+            <div class="subscript-content">
+                <div class="subscript-container">
+                    <div class="subscript-header">
+                        <h1>SUBSCRIBE TO OUR NEWS LETTER</h1>
+                    </div>
+                    <div class="subscript-body">
+                        <div class="form-group subscript-form">
+                            <input id="my-input" class="form-control mb-2 input-field" type="text" name="" placeholder="Enter your email">
+                            <button class="btn  btn-serach">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="footer-section">
+          <div class="footer-content">
+              <div class="container">
+                  <div class="footer-header">
+                      <h3>Skiptheagent</h3>
+                   </div>
+                   <div class="footer-body">
+                       <div class="row">
+                           <div class="col-md-3">
+                               <ul class="footer-list">
+                                   <li><a href="">Contact Us</a></li>
+                                   <li><a href="">About Us</a></li>
+                                   <li><a href="">Term & Conditions</a></li>
+                                   <li><a href="">Partners</a></li>
+                               </ul>
+                           </div>
+                           <div class="col-md-3">
+                              <ul class="footer-list">
+                                  <li><a href="">Contact Us</a></li>
+                                  <li><a href="">About Us</a></li>
+                                  <li><a href="">Term & Conditions</a></li>
+                                  <li><a href="">Partners</a></li>
+                              </ul>
+                          </div>
+                          <div class="col-md-6">
+                              <span class="folllowus-text">Follow Us</span>
+                              <ul class="ft_social-links">
+                                <li><a href=""><span><img src="./images/facebook-app-symbol.svg" width="25px"></span></a></li>
+                                <li><a href=""><span><img src="./images/twitter.svg" width="25px"></span></a></li>
+                                <li><a href=""><span><img src="./images/instagram-logo.svg"  width="25px"></span></a></li>
+                                <li><a href=""><span><img src="./images/linkedin-letters.svg" width="25px"></span></a></li>
+                              </ul>
+                              <div class="form-group text-md-right">
+                                  <button type="button" class="btn btn-download">Download Now</button>
+                              </div>
+                              <div class="download-options">
+                                 <button type="button" class="btn"> <img src="./images/128x128.png"></button>
+                                 <button type="button" class="btn"> <img src="./images/128x1281.png"></button>
+                              </div>
+                          </div>
+                       </div>
+                   </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+    
+    </div>
+</div>
+
+    
+    
+    <!-- csutom js -->
+    <script type="text/javascript" src="./js/script.js"></script>
+
+
+</body>
+</html>
